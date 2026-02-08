@@ -1,0 +1,30 @@
+@if(cardInfo){
+<div class="card h-[500px]" aria-label="{{ cardInfo.name }}">
+    <div class="top-info text-4xl w-full text-right flex flex-row gap-6 justify-end">
+        <div class="flex strike-type"> {{ cardInfo.strikeType }}</div>
+        <div class="flex">{{ cardInfo.power }}</div>
+    </div>
+    <div class="card-header w-full items-center">
+        <div class="text-2xl title w-full text-center">
+            <h2>{{ cardInfo.name }}</h2>
+            <span class="type">{{ cardInfo.strikeType }}</span>
+        </div>
+    </div>
+
+    <div class="card-image w-full flex h-[200px] justify-center">
+        <img [src]="cardInfo.imageUrl" [alt]="cardInfo.name" class="max-w-full h-auto">
+    </div>
+
+    <div class="card-body">
+        <p class="description text-center">{{ cardInfo.abilityText }}</p>
+        @if(cardInfo.flavor){
+        <p class="flavor text-center">"{{ cardInfo.flavor }}"</p>
+        }
+    </div>
+
+    <div class="text-4xl w-full text-right flex flex-row gap-6 justify-end">
+        <div class="flex strike-type"> {{ cardInfo.strikeType }}</div>
+        <div class="flex">{{ cardInfo.power }}</div>
+    </div>
+</div>
+}

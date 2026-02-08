@@ -1,0 +1,21 @@
+<main class="page">
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">{{ title }}</p>
+      <h1>Card Gallery</h1>
+      <p class="subtitle">
+        A quick showcase of the new card component for the Samurai's Zenith board game.
+      </p>
+    </div>
+    <div class="badge">Prototype Deck</div>
+  </header>
+
+  <div class="flex flex-row flex-wrap gap-4 p-4" aria-label="Samurai's Zenith cards">
+    @for(card of allStrikes; track card){
+    <div class="w-[300px]">
+      <strike-card [cardInfo]="card"></strike-card>
+    </div>
+    }
+
+  </div>
+</main>

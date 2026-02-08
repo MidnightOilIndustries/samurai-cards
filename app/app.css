@@ -1,0 +1,52 @@
+.page {
+	min-height: 100vh;
+	padding: 3rem clamp(1.5rem, 3vw, 3.5rem) 4rem;
+	color: #f7f1ff;
+	font-family: "Inter", "Segoe UI", sans-serif;
+    	background: linear-gradient(180deg, #1d1b26 0%, #121018 100%);
+}
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 2rem;
+	margin-bottom: 2.5rem;
+	flex-wrap: wrap;
+}
+
+.page-header h1 {
+	margin: 0.35rem 0 0.75rem;
+	font-size: clamp(2rem, 3vw, 3rem);
+	letter-spacing: 0.02em;
+}
+
+.eyebrow {
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	font-size: 0.75rem;
+	color: #c2b3df;
+	margin: 0;
+}
+
+.subtitle {
+	margin: 0;
+	color: #d3c7ec;
+	max-width: 520px;
+	line-height: 1.6;
+}
+
+.badge {
+	padding: 0.5rem 1rem;
+	border-radius: 999px;
+	background: rgba(255, 255, 255, 0.08);
+	color: #f3d2ff;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 0.7rem;
+	font-weight: 600;
+}
+
+.card-grid {
+	gap: 1.5rem;
+}
