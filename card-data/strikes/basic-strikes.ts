@@ -4,7 +4,7 @@ export const basicStrikes: CardInfo[] = [
     {
         name: "Basic Stab",
         power: 2,
-        strikeType: StrikeType.Strike,
+        strikeType: StrikeType.Slash,
         rarity: "Common",
         abilityText: "",
         imageUrl: "/Sword1.jpg",

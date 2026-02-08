@@ -1,7 +1,7 @@
 export enum StrikeType {
     Counter = 'Counter',
     Stab = 'Stab',
-    Strike = 'Strike',
+    Slash = 'Slash',
 }
 
 export interface CardInfo {
