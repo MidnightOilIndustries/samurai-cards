@@ -3,7 +3,7 @@
 	padding: 3rem clamp(1.5rem, 3vw, 3.5rem) 4rem;
 	color: #f7f1ff;
 	font-family: "Inter", "Segoe UI", sans-serif;
-    	background: linear-gradient(180deg, #1d1b26 0%, #121018 100%);
+	background: linear-gradient(180deg, #1d1b26 0%, #121018 100%);
 }
 
 .page-header {

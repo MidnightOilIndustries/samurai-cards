@@ -1,4 +1,4 @@
-import { CardInfo, StrikeType } from "../../interfaces/strike-type";
+import { CardInfo, StrikeType } from "../../interfaces/strike-interfaces";
 
 export const counters: CardInfo[] = [
     {
@@ -7,7 +7,7 @@ export const counters: CardInfo[] = [
         strikeType: StrikeType.Counter,
         rarity: "Rare",
         abilityText: "Gain 1 Yen Upon Win",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/sword2.jpg",
 
     },
     {
@@ -15,7 +15,7 @@ export const counters: CardInfo[] = [
         power: 3,
         strikeType: StrikeType.Counter,
         rarity: "Uncommon",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/sword2.jpg",
     },
     {
         name: "Holy Counter",
@@ -23,7 +23,7 @@ export const counters: CardInfo[] = [
         strikeType: StrikeType.Counter,
         rarity: "Uncommon",
         abilityText: "Gain 1 Life upon Win",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/sword2.jpg",
     },
     {
         name: "Counter: Complete",
@@ -31,6 +31,6 @@ export const counters: CardInfo[] = [
         strikeType: StrikeType.Counter,
         rarity: "Rare",
         abilityText: "Deal 1 Damage to Opponent on Tie",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/sword2.jpg",
     },
 ];

@@ -1,4 +1,4 @@
-import { CardInfo, StrikeType } from "../../interfaces/strike-type";
+import { CardInfo, StrikeType } from "../../interfaces/strike-interfaces";
 
 export const Slashs: CardInfo[] = [
     {
@@ -6,7 +6,7 @@ export const Slashs: CardInfo[] = [
         power: 4,
         strikeType: StrikeType.Slash,
         rarity: "Uncommon",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/sword2.jpg",
     },
     {
         name: "Slash of Overwhelming Force",
@@ -14,14 +14,14 @@ export const Slashs: CardInfo[] = [
         strikeType: StrikeType.Slash,
         rarity: "Mythic",
         abilityText: "Destroy the Opponent's Card on Win",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/bloodsword.jpg",
     },
     {
-        name: "Slash: Complete",
+        name: "Slash: Full Moon",
         power: 2,
         strikeType: StrikeType.Slash,
         rarity: "Rare",
         abilityText: "Deal 1 Damage to Opponent on Tie",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/moonsword.jpg",
     },
 ];

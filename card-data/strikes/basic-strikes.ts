@@ -1,4 +1,4 @@
-import { CardInfo, StrikeType } from "../../interfaces/strike-type";
+import { CardInfo, StrikeType } from "../../interfaces/strike-interfaces";
 
 export const basicStrikes: CardInfo[] = [
     {
@@ -7,7 +7,7 @@ export const basicStrikes: CardInfo[] = [
         strikeType: StrikeType.Slash,
         rarity: "Common",
         abilityText: "",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/sword2.jpg",
 
     },
     {
@@ -16,7 +16,7 @@ export const basicStrikes: CardInfo[] = [
         strikeType: StrikeType.Stab,
         rarity: "Common",
         abilityText: "",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/sword2.jpg",
 
     },
     {
@@ -24,6 +24,6 @@ export const basicStrikes: CardInfo[] = [
         power: 2,
         strikeType: StrikeType.Counter,
         rarity: "Common",
-        imageUrl: "/Sword1.jpg",
+        imageUrl: "/sword2.jpg",
     }
 ];

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CardInfo } from '../interfaces/strike-type';
+import { CardInfo } from '../../interfaces/strike-interfaces';
 
 @Component({
   selector: 'strike-card',

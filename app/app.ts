@@ -1,18 +1,13 @@
 import { Component } from '@angular/core';
-import { Card } from '../card/card';
-import { StrikeType } from '../interfaces/strike-type';
-import { allStrikes } from '../card-data/strikes/strike-data';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [Card],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
+  imports: [RouterOutlet]
 })
 export class App {
-  protected readonly title = "Samurai's Zenith";
-  protected readonly StrikeType = StrikeType;
 
-  protected readonly allStrikes = allStrikes;
 }
