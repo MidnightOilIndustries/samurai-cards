@@ -9,4 +9,5 @@ export interface EventCardInfo {
     eventText: string;
     flavor?: string;
     imageUrl: string;
+    reward?: string;
 }
